@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/main.css">
+    <title>ISA&A</title>
 </head>
 <body>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
@@ -19,7 +20,7 @@
         <input type="text" name="cat2"><br><br>
         <label>FAT</label>
         <input type="text" name="fat"><br><br>
-        <input type="submit">
+        <input class="btn success" type="submit">
     </form>
 
     <div><a href="./">Home</a></div>

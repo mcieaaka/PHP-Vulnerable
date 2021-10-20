@@ -1,0 +1,24 @@
+.btn{
+    border: royalblue 2px solid;
+    border-radius:16px;
+    color: royalblue;
+    background-color:white;
+    padding: 10px;
+    margin:10px;
+    text-decoration: none;
+}
+.btn:hover{
+    color:white;
+    background-color:royalblue;
+}
+.btn.success{
+    border-color: green;
+    color: green;
+}
+.btn.success:hover{
+    color:white;
+    background-color:green;
+}
+body{
+    padding:25px;
+}
