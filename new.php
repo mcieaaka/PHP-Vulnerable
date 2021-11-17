@@ -23,7 +23,7 @@
         <input class="btn success" type="submit">
     </form>
 
-    <div><a href="./">Home</a></div>
+    <div><a href="./main.php">Home</a></div>
 <?php
     if ($_SERVER['REQUEST_METHOD']=='POST'){
         $regno = $_POST['regno'];

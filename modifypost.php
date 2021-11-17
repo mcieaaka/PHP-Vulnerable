@@ -12,7 +12,7 @@
         if(!$ins){
             echo mysqli_error($con);
         }else{
-            echo "<br>Successfull Updation in DB<br><a href='./'>HOME</a>";
+            echo "<br>Successfull Updation in DB<br><a href='./main.php'>HOME</a>";
         }
     }
 ?>

@@ -14,7 +14,7 @@
         <input type="submit">
     </form>
 
-    <div><a href="./">Home</a></div>
+    <div><a href="./main.php">Home</a></div>
 
 
 </body>

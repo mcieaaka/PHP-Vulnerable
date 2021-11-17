@@ -15,6 +15,7 @@
                     $_SESSION["Username"] = $row['username'];
                     $_SESSION["Auth"]=true;
                     echo "Login Successful!";
+                    echo "<br><a href='./main.php'>Go Login!</a>";
                 }else{
                     echo "Wrong Credentials";
                 }
